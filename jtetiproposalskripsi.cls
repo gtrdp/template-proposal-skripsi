@@ -9,6 +9,11 @@
 \RequirePackage{times}
 \RequirePackage{graphicx,latexsym}
 
+\setlength{\paperwidth}{210mm}
+\setlength{\paperheight}{297mm}
+\usepackage[pass]{geometry}
+\usepackage{verbatim,enumerate}
+
 \newif\if@msthesis
 \newif\if@msproposal
 \DeclareOption{skripsi}{\@msthesistrue\@msproposalfalse}
