@@ -184,8 +184,6 @@
 \gdef\@city{Yogyakarta}
 \newcommand{\titleind}[1]{\gdef\@titleind{#1}}
 \newcommand{\@titleind}{}
-\newcommand{\titleeng}[1]{\gdef\@titleeng{#1}}
-\newcommand{\@titleeng}{}
 \newcommand{\fullname}[1]{\gdef\@fullname{#1}}
 \newcommand{\@fullname}{}
 \newcommand{\idnum}[1]{\gdef\@idnum{#1}}
@@ -435,6 +433,9 @@ dalam naskah ini dan disebutkan dalam daftar pustaka.
 \def\endabstracteng{\par\vfil\null\end{singlespace}%
 \selectlanguage{bahasa}\clearpage\pagenumbering{arabic}\setcounter{page}{1}}
 
+%Tabularization
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.2\textwidth}\rlap{#1}}
 
 
 \AtBeginDocument{%
