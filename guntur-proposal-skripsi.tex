@@ -47,14 +47,13 @@
 %Disini awal masukan Intisari
 %-----------------------------------------------------------------
 \begin{abstractind}
-Jaringan sensor nirkabel (Wireless Sensor Network, WSN) adalah jaringan simpul (node) sensor otonom terdistribusi yang digunakan untuk memonitor kondisi fisik atau lingkungan misalnya suhu, suara, getaran, kelembaban, dan lain-lain. Selain itu, tidak menutup kemungkinan untuk menambahkan fungsi tambahan pada setiap simpul misalnya port masukan/keluaran yang dapat digunakan sebagai pengendali aktuator yang terhubung ke piranti elektrik atau elektronis.
+Penggunaan \emph{Wireless Sensor Network} (WSN) untuk gedung dan perumahan semakin populer karena dapat dimanfaatkan untuk berbagai kepentingan seperti \emph{home automation} dan \emph{home surveillance}. Oleh karena itu, untuk meningkatkan fleksibilitas penggunaan WSN, diperlukan sistem pengendalian yang dapat dikendalikan secara jarak jauh. Padahal pada umumnya, WSN dikendalikan oleh sebuah pengendali utama berada di sekitar tempat WSN itu berada.
 
-Data yang dikumpulkan dari simpul-simpul sensor dalam jaringan tersebut kemudian dibawa ke pengendali utama melalui sebuah gateway untuk diproses lebih lanjut. Data yang terkumpul diharapkan dapat digunakan untuk berbagai keperluan diantaranya untuk home automation dan home surveillance. Letak pengendali utama dapat berada di sekitar tempat WSN atau untuk memudahkan dan meningkatkan fleksibilitas, letak pengatur utama WSN dapat saja berada jauh dari area WSN. Pemilihan jaringan internet sebagai jembatan untuk menghubungkan WSN dengan pengatur utama yang letaknya jauh menjadi sangat tepat karena dewasa ini jaringan internet sudah sangat tersebar. Protokol yang digunakan di internet adalah protokol internet (Internet Protocol, IP). Ada kecenderungan bahwa berbagai komunikasi data akan mengarah menuju konvergensi menggunakan IP. Masalah utama yang dihadapi untuk menghubungkan WSN dengan jaringan IP adalah perbedaan protokol diantara keduanya. Oleh karena itu harus dibangun sebuah gateway yang dapat menjembatani jaringan WSN dengan IP.
+Penelitian ini mengusulkan integrasi dari WSN dengan \emph{Internet Protocol} (IP) yang memungkinkan WSN dapat dikendalikan dimanapun dan dengan apapun asalkan masih terhubung dengan jaringan internet. Penelitian ini memanfaatkan infrastruktur jaringan data yang sangat populer dan terhubung ke internet, yaitu jaringan area lokal nirkabel atau dikenal dengan nama WiFi. Salah satu perangkat utama dalam jaringan WiFi adalah \emph{Access Point} (AP) yang berfungsi sebagai koordinator simpul. Selain itu, AP juga berfungsi sebagai gateway yang menghubungkan berbagai piranti yang terhubung padanya ke internet. Oleh karena itu, penelitian ini akan mengembangkan perangkat lunak yang akan ditanamkan ke dalam AP sehingga menjadikan AP mempunyai kemampuan sebagai gateway untuk kedua jaringan WiFi dan beberapa protokol WSN ke dalam jaringan internet.
 
-Saat ini infrastruktur jaringan data yang sangat populer dan terhubung ke internet adalah jaringan area lokal nirkabel atau dikenal dengan nama WiFi. Salah satu perangkat utama dalam jaringan WiFi adalah access point (AP) yang berfungsi sebagai simpul koordinator. Selain itu, AP juga berfungsi sebagai gateway yang menghubungkan piranti- piranti yang terhubung padanya ke internet. Penelitian ini akan mengembangkan perangkat lunak yang akan ditanamkan (embedded) ke dalam AP sehingga menjadikan AP mempunyai kemampuan sebagai gateway untuk kedua jaringan WiFi dan WSN ke jaringan internet. Di dalam penelitian ini akan digunakan dua buah protokol WSN. 
 
 \bigskip
-\textbf{Kata kunci} : bahan magnet, non linear orde dua, optika.
+\textbf{Kata kunci} : \emph{wireless sensor network}, \emph{internet protokol}, WiFi, interoperabilitas.
 \end{abstractind}
 %-----------------------------------------------------------------
 %Disini akhir masukan Intisari
@@ -150,9 +149,9 @@ Penggunaan web server yang paling umum adalah sebagai host untuk halaman web, wa
 
 
 \subsection{AJAX}
-Ajax adalah kelompok dari teknik-teknik pengembangan web yang digunakan pada klien untuk membuat aplikasi asinkron. Dengan Ajax, aplikasi web dapat mengirim dan menerima data dari sebuah server secara asinkron tanpa mengganggu tampilan dari halaman yang ada. Data dapat diambil menggunakan obyek XMLHttpRequest. Penggunaan XML tidak diperlukan, malahan JSON lebih sering digunakan, dan rekues tidak harus asinkron.
+AJAX adalah kelompok dari teknik-teknik pengembangan web yang digunakan pada klien untuk membuat aplikasi asinkron. Dengan AJAX, aplikasi web dapat mengirim dan menerima data dari sebuah server secara asinkron tanpa mengganggu tampilan dari halaman yang ada. Data dapat diambil menggunakan obyek XMLHttpRequest. Penggunaan XML tidak diperlukan, malahan JSON lebih sering digunakan, dan rekues tidak harus asinkron.
 
-Ajax bukanlah sebuah teknologi, tapi kelompok dari teknologi-teknologi. HTML dan CSS dapat digunakan dalam kombinasi untuk mark up dan informasi tampilan. DOM diakses oleh JavaScript untuk menampilkan dan mengijinkan pengguna untuk berinteraksi dengan informasi tertampil. JavaScript dan obyek XMLHttpRequest menyediakan sebuah metode untuk pertukaran data secara asinkron antara browser dan server untuk menghindari muat ulang halaman secara keseluruhan.
+AJAX bukanlah sebuah teknologi, tapi kelompok dari teknologi-teknologi. HTML dan CSS dapat digunakan dalam kombinasi untuk mark up dan informasi tampilan. DOM diakses oleh JavaScript untuk menampilkan dan mengijinkan pengguna untuk berinteraksi dengan informasi tertampil. JavaScript dan obyek XMLHttpRequest menyediakan sebuah metode untuk pertukaran data secara asinkron antara browser dan server untuk menghindari muat ulang halaman secara keseluruhan.
 
 
 \subsection{OpenWRT}
