@@ -1,13 +1,62 @@
 Template Proposal Skripsi LaTeX
 ==============================
-v1.0.0
-
-Template Proposal Skripsi dengan LaTeX untuk JTETI UGM
+Template Proposal Skripsi dengan LaTeX untuk JTETI UGM.
 
 Hasil fork dari pak Pekik Nurwantoro (FMIPA) dan mas Yohan TE08.
 
-Content
-------
-Keterangan file-file yang ada di repository:
+Semoga bermanfaat. Anda sangat dibolehkan untuk turut berkontribusi dalam project ini dengan *Fork*, *Pull Request*, *Create New Issue*, atau turut menjadi kontributor repo ini.
 
-* jteti.cls
+Terimakasih.
+
+Download
+--------
+Silakan download versi terakhir di [https://github.com/gtrdp/template-proposal-skripsi](https://github.com/gtrdp/template-proposal-skripsi).
+
+Quick Start
+-----------
+1. Siapkan LaTeX environment pada komputer anda, begitu pula LaTeX editornya. File yang diperlukan biasanya berukuran besar, jadi siapkan koneksi internet yang lancar jaya.
+	- [*Windows*](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
+	- [*Linux*](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=linux+setup+latex)
+	- [*Mac OS X*](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=mac+setup+latex)
+
+2. Clone repository ini dengan [Git](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=setup+git). Atau [unduh](https://github.com/gtrdp/template-skripsi/releases) repository ini (cara ini lebih mudah).
+3. Mulai tulis naskah anda, keterangan dari masing-masing file dalam template ini ada di bawah.
+4. Pertamakali pakai LaTeX? Butuh bantuan? Pergunakanlah Google dengan baik dan bijak. Saya bantu:
+	- [Bahasa Indonesia](https://www.google.com/search?q=tutorial+menggunakan+latex&oq=tutorial+menggunakan+latex&aqs=chrome..69i57j0.3219j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
+	- [English](https://www.google.com/search?q=latex+tutorial&oq=latex+tutorial&aqs=chrome..69i57j69i65l3j69i60l2.1884j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
+	- Atau kontak saya melalui email: [guntur.dharma@gmail.com](mailto:guntur.dharma@gmail.com)
+
+Contents
+--------
+Berikut penjelasan dari file-file utama dalam template ini. File lain yang tidak tercantum hanya pelengkap dalam repository ini.
+
+		template-proposal-skripsi/
+			├── gambar/
+			│	   └── logougm.png
+			├── research-plan.bib
+			├── guntur-proposal-skripsi.pdf
+			├── guntur-proposal-skripsi.tex
+			└── jtetiproposalskripsi.cls
+			
+### research-plan.bib
+File yang berisi daftar referensi-referensi yang anda gunakan dalam proposal skripsi. File ini penting guna menyusun daftar pustaka anda. Dengan file ini menyusun daftar pustaka menjadi sangat sangat sangat mudah.
+
+File ini adalah hasil export dari aplikasi *reference management* seperti Mendeley, Zotero, EndNote, dll. Biasakan mengorganisir referensi skripsi anda menggunakan aplikasi *reference management*.
+
+### guntur-proposal-skripsi.tex
+File ini adalah file utama (kepala) dari template. Berisi keseluruhan konten proposal skripsi.
+
+### guntur-proposal-skripsi.pdf
+File ini adalah proposal skripsi anda dalam bentuk matang. Sudah rapi dan dapat dicetak untuk dikumpulkan. File ini di-*generate* secara otomatis menggunakan LaTeX.
+
+### jtetiproposalskripsi.cls
+File yang berisi aturan-aturan format proposal skripsi. Contoh, format cover, halaman pengesahan, daftar isi, daftar pustaka, dan konten proposal skripsi.
+
+Jika anda ingin memodifikasi template proposal skripsi ini, ubahlah file *jtetiproposalskripsi.cls* ini.
+
+### gambar/
+Masukkan gambar-gambar pada skripsi anda di folder ini. Gambar wajib ada: logougm.png (dipakai di cover).
+
+Lisensi
+-------
+Template sripsi ini dilisensikan dengan menggunakan [lisensi MIT](https://raw.githubusercontent.com/gtrdp/template-proposal-skripsi/master/LICENSE).
